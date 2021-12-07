@@ -1,0 +1,10 @@
+<script>
+    const baseUrl = 'https://kward-influx.github.io';
+    function DoCoveoSearch() {
+        let search = document.getElementById("coveoSearchInput");
+        if(search.value.length > 3) {
+            let url = baseUrl + "#q=" + encodeURI(search.value);
+            document.location.href = url;
+        }
+    }
+</script>

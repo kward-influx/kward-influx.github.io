@@ -1,0 +1,44 @@
+.coveoSearch {
+width: 80%;
+position: relative;
+display: flex;
+margin: 10px auto;
+}
+
+.searchTerm {
+width: 100%;
+border: 1px solid #bcc3ca !important;
+border-right: none !important;
+padding: 12px 49px 12px 12px !important;
+border-radius: 5px 0 0 5px;
+outline: none !important;
+color: #67768b;
+background: none;
+font-size: 16px !important;
+line-height: 22px !important;
+}
+
+.searchTerm :focus {
+outline-color: transparent;
+outline-style: none;
+}
+
+.coveoSearchButton {
+width: 50px;
+height: 46px;
+border: 1px solid #bcc3ca;
+background: none;
+text-align: center;
+vertical-align: middle;
+color: #fff;
+border-radius: 0 5px 5px 0;
+cursor: pointer;
+font-size: 20px;
+}
+
+.coveo-search-button-svg {
+width: 18px;
+height: 18px;
+color: #1d4f76;
+margin-top: 12px;
+}
